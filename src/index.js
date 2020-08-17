@@ -6,6 +6,6 @@ taskForm.addEventListener("DOMContentLoaded", (e) => {
   // your code here
   e.preventDefault();
 let newTask = document.getElementById("new-task-description").value;
-
+taskList.innerHTML +=
 
 });
