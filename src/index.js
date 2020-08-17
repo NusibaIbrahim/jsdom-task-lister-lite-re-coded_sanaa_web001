@@ -7,5 +7,5 @@ document.addEventListener("DOMContentLoaded", (e) => {
 //   btn.onclick = function(){
 //     list.innerHTML = input.value;
 //   };
-const main = document.querySelector("")
+const main = document.querySelector("#main-content")
 });
