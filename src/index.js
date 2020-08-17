@@ -6,10 +6,6 @@ taskForm.addEventListener("DOMContentLoaded", (e) => {
   // your code here
   e.preventDefault();
 let newTask = document.getElementById("new-task-description").value;
-//   let btn = document.querySelector("input[type=submit]");
-//   let list =
-//   btn.onclick = function(){
-//     list.innerHTML = input.value;
-//   };
+
 
 });
