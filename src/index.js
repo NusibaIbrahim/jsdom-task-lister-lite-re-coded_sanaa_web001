@@ -1,3 +1,6 @@
+const main = document.querySelector("#main-content");
+const taskForm = document.querySelector
+
 document.addEventListener("DOMContentLoaded", (e) => {
   // your code here
   e.preventDefault();
@@ -7,5 +10,5 @@ document.addEventListener("DOMContentLoaded", (e) => {
 //   btn.onclick = function(){
 //     list.innerHTML = input.value;
 //   };
-const main = document.querySelector("#main-content")
+
 });
