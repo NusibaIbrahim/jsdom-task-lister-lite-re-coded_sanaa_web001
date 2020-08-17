@@ -1,3 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", (e) => {
   // your code here
+  e.preventDefault();
 });
