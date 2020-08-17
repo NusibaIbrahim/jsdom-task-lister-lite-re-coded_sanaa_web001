@@ -4,7 +4,7 @@ const taskList = document.querySelector("#tasks");
 
 taskForm.addEventListener("DOMContentLoaded", (e) => {
   // your code here
-  e.preventDefault();
+  // e.preventDefault();
 let newTask = document.getElementById("new-task-description").value;
 taskList.innerHTML +=`
 <li>${newTask}
