@@ -13,3 +13,7 @@ taskList.innerHTML +=`
 taskform.reset();
 
 });
+
+taskForm.addEventListener("DOMContentLoaded", (e) => {
+  
+});
