@@ -8,6 +8,6 @@ taskForm.addEventListener("DOMContentLoaded", (e) => {
 let newTask = document.getElementById("new-task-description").value;
 taskList.innerHTML +=`
 `
-taskform.reset
+taskform.reset();
 
 });
