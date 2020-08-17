@@ -1,5 +1,5 @@
 const main = document.querySelector("#main-content");
-const taskForm = document.querySelector
+const taskForm = document.querySelector("#create-task-form");
 
 document.addEventListener("DOMContentLoaded", (e) => {
   // your code here
