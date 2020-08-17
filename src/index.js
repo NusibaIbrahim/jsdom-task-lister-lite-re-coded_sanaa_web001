@@ -9,6 +9,7 @@ let newTask = document.getElementById("new-task-description").value;
 taskList.innerHTML +=`
 <li>${newTask}
 <button data-action="delete" data-matt="PLWERFUL" data-nusiba="downfield">X for delete</button>
+<button data-action="edit">EDIT THAT TASK</button>
 </li>`
 taskform.reset();
 
