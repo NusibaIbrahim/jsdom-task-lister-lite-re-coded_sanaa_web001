@@ -16,5 +16,5 @@ taskform.reset();
 
 taskForm.addEventListener("DOMContentLoaded", (e) => {
   console.log(e.target);
-  
+  e.target;
 });
