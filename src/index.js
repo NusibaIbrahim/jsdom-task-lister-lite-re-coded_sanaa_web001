@@ -8,7 +8,7 @@ taskForm.addEventListener("DOMContentLoaded", (e) => {
 let newTask = document.getElementById("new-task-description").value;
 taskList.innerHTML +=`
 <li>${newTask}
-<button class="delet-button">X for delete</button>
+<button data-action="delete" data-matt="PLWERFUL" data-nusiba="downfield">X for delete</button>
 </li>`
 taskform.reset();
 
@@ -16,5 +16,5 @@ taskform.reset();
 
 taskForm.addEventListener("DOMContentLoaded", (e) => {
   console.log(e.target);
-  e.target;
+  if(e.target.dataset.action)
 });
