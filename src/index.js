@@ -7,7 +7,8 @@ taskForm.addEventListener("DOMContentLoaded", (e) => {
   e.preventDefault();
 let newTask = document.getElementById("new-task-description").value;
 taskList.innerHTML +=`
-`
+<li>${newTask}
+</li>`
 taskform.reset();
 
 });
