@@ -17,6 +17,6 @@ taskform.reset();
 taskForm.addEventListener("DOMContentLoaded", (e) => {
   console.log(e.target);
   if(e.target.dataset.action === "delete"){
-    
+    e.target.parentElement
   }
 });
