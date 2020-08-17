@@ -5,6 +5,6 @@ document.addEventListener("DOMContentLoaded", (e) => {
   let btn = document.querySelector("input[type=submit]");
   let list = document.querySelector("#list #tasks");
   btn.onclick = function(){
-    
+    list.innerHTML = input.value;
   };
 });
