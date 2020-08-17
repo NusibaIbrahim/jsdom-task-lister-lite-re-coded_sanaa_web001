@@ -2,7 +2,7 @@ const main = document.querySelector("#main-content");
 const taskForm = document.querySelector("#create-task-form");
 const taskList = document.querySelector("#tasks");
 
-document.addEventListener("DOMContentLoaded", (e) => {
+taskForm.addEventListener("DOMContentLoaded", (e) => {
   // your code here
   e.preventDefault();
 //   let input = document.getElementById("new-task-description");
