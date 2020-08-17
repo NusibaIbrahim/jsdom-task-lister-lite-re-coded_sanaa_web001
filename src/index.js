@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
   e.preventDefault();
   let input = document.getElementById("new-task-description");
   let btn = document.getSelector("input[type=submit]");
-  let 
+  let list = document.getElementById("list");
   btn.onclick = function(){
     
   };
