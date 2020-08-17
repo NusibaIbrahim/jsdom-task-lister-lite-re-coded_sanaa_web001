@@ -7,4 +7,4 @@ document.addEventListener("DOMContentLoaded", (e) => {
 //   btn.onclick = function(){
 //     list.innerHTML = input.value;
 //   };
-// });
+});
